@@ -64,6 +64,8 @@ UI OF THE WEBSITE
 ![image alt](https://github.com/VamsiKrishna0101/MailAutomation/blob/1738b185d7a78fea3ecad69840f438cbf54cfe8a/finalui.png)
 
 
+DEMO VIDEO
 
+https://github.com/user-attachments/assets/df1cf94f-2e00-4c26-958e-fc9f98bf45a3
 
 
