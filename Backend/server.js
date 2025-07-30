@@ -14,7 +14,7 @@ import ProfileRoutes from './Routes/ProfileRoute.js'
 // App config
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 10000;
 
 // Connect DB
 connectDB();
