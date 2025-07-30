@@ -17,7 +17,7 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8000/api/user/login', {
+      const response = await axios.post('https://mailautomation-jhu8.onrender.com/api/user/login', {
         email: Email,
         password: Password,
       });
