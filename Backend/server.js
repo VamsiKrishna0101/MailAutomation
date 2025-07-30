@@ -22,9 +22,10 @@ connectDB();
 // Middlewares
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:5173", 
-  credentials: true,
+  origin: ['https://mail-automation-orcin.vercel.app'], 
+  credentials: true
 }));
+
 app.use(cookieParser());
 
 // API Routes
