@@ -9,3 +9,9 @@ Here’s the list of features It Has:
 6. Send Condition-Based Emails
 7. Profile Dashboard with Campaign Analytics
 
+1️⃣ User Authentication (Login/Register)
+Description:
+Secure registration and login system using JWT tokens. On successful login or signup, the token is stored in localStorage and used for authorization in all protected routes.
+
+
+
