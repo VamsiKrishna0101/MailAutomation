@@ -21,7 +21,7 @@ const NodeForm = ({ nodeType }) => {
 
     try {
       const res = await axios.post(
-        'http://localhost:8000/api/simulate/send',
+        'https://mailautomation-jhu8.onrender.com/api/simulate/send',
         { campaignId: id },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -58,7 +58,7 @@ const NodeForm = ({ nodeType }) => {
 
     try {
       const res = await axios.post(
-        'http://localhost:8000/api/simulate/delay',
+        'https://mailautomation-jhu8.onrender.com/api/simulate/delay',
         { campaignId: id, delayInMs },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -103,7 +103,7 @@ const handleConditionSubmit = async (e) => {
     });
 
     const res = await axios.post(
-      'http://localhost:8000/api/simulate/condition',
+      'https://mailautomation-jhu8.onrender.com/api/simulate/condition',
       {
         campaignId: id,
         condition,
