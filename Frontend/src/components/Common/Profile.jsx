@@ -10,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/users/profile", {
+        const res = await axios.get("https://mailautomation-jhu8.onrender.com/api/users/profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
