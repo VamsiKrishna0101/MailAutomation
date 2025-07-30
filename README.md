@@ -60,6 +60,9 @@ Helps users understand engagement and conversions
 
 ![image alt](https://github.com/VamsiKrishna0101/MailAutomation/blob/0d36825b64a3f45f509a7f4bd0e8f11194c433a6/profile.png)
 
+UI OF THE WEBSITE
+![image alt](https://github.com/VamsiKrishna0101/MailAutomation/blob/1738b185d7a78fea3ecad69840f438cbf54cfe8a/finalui.png)
+
 
 
 
